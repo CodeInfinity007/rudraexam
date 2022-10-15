@@ -36,6 +36,11 @@ def main():
         #     for ppl in range(len(meeting)):
         #         if meeting[ppl] == name:
         #             print(name," is busy")
+        
+        wtd = input("Restart App? Y or N: ")
+        if wtd =="Y":
+            main()
+        else: pass
             
     else:
         wtd = input("Restart App? Y or N: ")
